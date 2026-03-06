@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>revisao</title>
+    <style>
+        @font-face {
+    font-family: 'Android' ;
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+   :root{
+    --fonte-destaque:"Android"
+   }
+      header{
+        font-family: var(--fonte-destaque);
+        background-color: aqua;
+      }
+      header h1{
+        text-align: center;
+      }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        body{
+            background-color: lightslategray;
+        }
+        main{
+            background-color: white;
+          max-width: 600px;
+          min-width: 300px;
+          padding: 20px;
+            margin: auto;
+        }
+        main h1{
+            font-family: var(--fonte-destaque);
+         background-color: aqua;
+         text-align: center;
+        }
+        main p{
+            text-indent: 20px;
+        }
+        img{
+            width: 100%;
+        }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Curiosidade da tecnologia</h1>
+        <nav>
+         <a href="#">Home</a>
+          <a href="#">Noticias</a>
+           <a href="#">Curiosidades</a>
+            
+        </nav>
+    </header>
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto voluptates provident accusamus, fugit placeat rem alias magnam non totam assumenda, magni facilis illum, perspiciatis vero impedit. Cupiditate itaque enim tempore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit rem asperiores optio omnis alias sequi, ab molestiae labore. Minus natus sint aut ullam ea, maiores rerum quas consequuntur quod perspiciatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consectetur expedita ipsam reprehenderit fugiat nemo error consequatur. Iusto laudantium error sequi temporibus veritatis, ex eum quaerat iure dolores aspernatur itaque.</p>
+        <picture>
+            <source media="(max-width:600px )" srcset="irina-blok-pq.jpg">
+            <img src="irina-blok.jpg" alt="">
+        </picture>
+        <p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto voluptates provident accusamus, fugit placeat rem alias magnam non totam assumenda, magni facilis illum, perspiciatis vero impedit. Cupiditate itaque enim tempore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit rem asperiores optio omnis alias sequi, ab molestiae labore. Minus natus sint aut ullam ea, maiores rerum quas consequuntur quod perspiciatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa consectetur expedita ipsam reprehenderit fugiat nemo error consequatur. Iusto laudantium error sequi temporibus veritatis, ex eum quaerat iure dolores aspernatur itaque.</p></p>
+    </main>
+    
+</body>
+</html>
